@@ -1,4 +1,6 @@
-export default function Sugestao(props) {
+import CadaSugestao from "./CadaSugestao";
+
+export default function Sugestao() {
 
     const usuariosSugeridos = [
     {nome:  "bad.vibes.memes", razao:"Segue Você"},
@@ -8,24 +10,20 @@ export default function Sugestao(props) {
     {nome:  "smallcutecats", razao:"Segue Você"}
 ]
 
-
     return (  
         <>
         { usuariosSugeridos.map( itens => {
             return (
-    <div class="sugestao">
-      <div class="usuario">
-        <img src= {`../img/${itens.nome}.svg`} alt ="" /> 
-        <div class="texto">
-          <div class="nome">{itens.nome}</div>
-        <div class="razao">{itens.razao}</div>
-      </div>
-     </div>
-     <div class="seguir">Seguir</div>
-    </div>
-   );
-})}
-</>
+                <div>
+                   <CadaSugestao nome={itens.nome} razao={itens.razao} />    
+                </div>
+                  );
+                    })}
+       </>
 )
 }
+
+
+
+
   

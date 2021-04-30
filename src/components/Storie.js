@@ -1,3 +1,4 @@
+import CadaStorie from "./CadaStorie";
 export default function Storie() {
    
  const usuarios = ["9gag",
@@ -13,14 +14,12 @@ export default function Storie() {
         <>
         { usuarios.map(nome => {
             return (<div class="story">
-                         <div class="imagem">
-                           <img src= {`../img/${nome}.svg`} alt =""/>
-                         </div>
-                       <div class="usuario">{nome}
-                       </div>
+                    <CadaStorie nome={nome}  />
                    </div>
                    );
         })}
       </>
     )
   }
+
+  
