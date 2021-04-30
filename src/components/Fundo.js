@@ -1,13 +1,24 @@
 
 export default function Fundo() {
 
+let icons = ["home", "search-outline", "add-circle-outline","heart-outline","person-outline", ]
 return (
-  <div class="fundo-mobile">
-    <ion-icon name="home"></ion-icon>
-    <ion-icon name="search-outline"></ion-icon>
-    <ion-icon name="add-circle-outline"></ion-icon>
-    <ion-icon name="heart-outline"></ion-icon>
-    <ion-icon name="person-outline"></ion-icon>
-  </div>
+    <>
+    { icons.map( itens => {
+        return (
+                 <div class="fundo-mobile">
+                   <Icones name={itens}/>
+                 </div>);
+    })}
+    </>
+)
+}
+
+function Icones(props) {
+
+return (
+       <>
+         <ion-icon name={props.tipo}></ion-icon>
+       </>
 )
 }
