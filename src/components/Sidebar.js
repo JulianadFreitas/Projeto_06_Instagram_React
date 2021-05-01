@@ -3,7 +3,7 @@ export default function Sidebar() {
 
 return (
 <div class="sidebar">
-          <Usuario nomePerfil = "catanacomics" />
+          <Usuario nome ="Catana"nomePerfil = "catanacomics" />
           <Opcoes/>
           <div class="sugestoes">
           <Sugestao/>
@@ -22,7 +22,7 @@ function Usuario(props) {
             <img src={`../img/${props.nomePerfil}.svg`} />
             <div class="texto">
               <strong>{props.nomePerfil}</strong>
-              {props.nomePerfil}
+              {props.nome}
             </div>
           </div>
           

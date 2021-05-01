@@ -13,13 +13,15 @@ export default function Storie() {
     return(
         <>
         { usuarios.map(nome => {
-            return (<div class="story">
+            return (<>
                     <CadaStorie nome={nome}  />
-                   </div>
+                   </>
                    );
         })}
       </>
     )
   }
+
+  
 
   
