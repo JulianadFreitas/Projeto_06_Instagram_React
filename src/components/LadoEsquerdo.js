@@ -5,8 +5,8 @@ export default function LadoEsquerdo() {
 
     return (
         <div class="esquerda">
-         <Stories />
-         <Posts />
+       <Stories />
+       <Posts />
        </div>
     )
 }

@@ -3,14 +3,14 @@ export default function Sidebar() {
 
 return (
 <div class="sidebar">
-          <Usuario nome ="Catana"nomePerfil = "catanacomics" />
-          <Opcoes/>
-          <div class="sugestoes">
-          <Sugestao/>
-          </div>
-          <Div classe = "links" conteudo="Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"/>
-          <Div classe = "copyright" conteudo="© 2021 INSTAGRAM DO FACEBOOK"/>
-          </div>
+  <Usuario nome ="Catana"nomePerfil = "catanacomics" />
+  <Opcoes/>
+  <div class="sugestoes">
+  <Sugestao/>
+  </div>
+  <Div classe = "links" conteudo="Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"/>
+  <Div classe = "copyright" conteudo="© 2021 INSTAGRAM DO FACEBOOK"/>
+</div>
         
        )
       }
@@ -41,7 +41,6 @@ function Usuario(props) {
       )
       } 
       function Div(props) {
-
         return (
           <div class={props.classe}> 
           {props.conteudo}
