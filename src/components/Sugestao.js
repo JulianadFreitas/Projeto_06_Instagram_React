@@ -6,19 +6,19 @@ export default function Sugestao() {
     {nome:  "bad.vibes.memes", razao:"Segue Você"},
     {nome:  "chibirdart", razao:"Segue Você"},
     {nome:  "razoesparaacreditar", razao:"Segue Você"},
-    {nome:  "adorable_animals", razao:"Novo seguidor"},
+    {nome:  "adorable_animals", razao:"Novo no Instagram"},
     {nome:  "smallcutecats", razao:"Segue Você"}
 ]
 
-    return (  
-        <>
-        { usuariosSugeridos.map( itens => {
+    return ( 
+        <>   
+        {usuariosSugeridos.map( itens => {
             return (
-                <div>
+                <div class="sugestoes">
                    <CadaSugestao nome={itens.nome} razao={itens.razao} />    
                 </div>
-                  );
-                    })}
+            );
+        })}
        </>
 )
 }

@@ -3,29 +3,49 @@ export default function Sidebar() {
 
 return (
 <div class="sidebar">
-          <div class="usuario">
-            <img src="../img/catanacomics.svg" />
-            <div class="texto">
-              <strong>catanacomics</strong>
-              Catana
-            </div>
-          </div>
+          <Usuario nomePerfil = "catanacomics" />
+          <Opcoes/>
           <div class="sugestoes">
-            <div class="titulo">
-              Sugestões para você
-              <div>Ver tudo</div>
-            </div>
           <Sugestao/>
           </div>
-          <div class="links">
-            Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma
+          <Div classe = "links" conteudo="Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"/>
+          <Div classe = "copyright" conteudo="© 2021 INSTAGRAM DO FACEBOOK"/>
           </div>
-          <div class="copyright">
-            © 2021 INSTAGRAM DO FACEBOOK
-          </div>
-        </div>
         
        )
       }
+
+function Usuario(props) {
+
+    return (
+          <div class="usuario">
+            <img src={`../img/${props.nomePerfil}.svg`} />
+            <div class="texto">
+              <strong>{props.nomePerfil}</strong>
+              {props.nomePerfil}
+            </div>
+          </div>
+          
+    )
+    }
+    
+    function Opcoes() {
+
+      return (
+        <div class="sugestoes">
+        <div class="titulo">
+          Sugestões para você
+          <div>Ver tudo</div>
+        </div>
+        </div>
+      )
+      } 
+      function Div(props) {
+
+        return (
+          <div class={props.classe}> 
+          {props.conteudo}
+          </div>
+        )}
 
      

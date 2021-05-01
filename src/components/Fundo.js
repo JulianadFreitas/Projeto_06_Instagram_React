@@ -1,4 +1,4 @@
-
+import Icones from "./Icones";
 export default function Fundo() {
 
 let icons = ["home", "search-outline", "add-circle-outline","heart-outline","person-outline", ]
@@ -14,11 +14,4 @@ return (
 )
 }
 
-function Icones(props) {
 
-return (
-       <>
-         <ion-icon name={props.tipo}></ion-icon>
-       </>
-)
-}
