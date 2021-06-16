@@ -1,26 +1,26 @@
 import Sugestoes from "./Sugestoes";
 export default function Sidebar() {
   return (
-    <div class="sidebar">
+    <div className="sidebar">
       <Usuario nome="Catana" nomePerfil="catanacomics" />
       <Opcoes />
-      <div class="sugestoes">
+      <div className="sugestoes">
         <Sugestoes />
       </div>
       <Div
-        classe="links"
+        className="links"
         conteudo="Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes • Hashtags • Idioma"
       />
-      <Div classe="copyright" conteudo="© 2021 INSTAGRAM DO FACEBOOK" />
+      <Div className="copyright" conteudo="© 2021 INSTAGRAM DO FACEBOOK" />
     </div>
   );
 }
 
 function Usuario(props) {
   return (
-    <div class="usuario">
+    <div className="usuario">
       <img src={`../img/${props.nomePerfil}.svg`} />
-      <div class="texto">
+      <div className="texto">
         <strong>{props.nomePerfil}</strong>
         {props.nome}
       </div>
@@ -30,8 +30,8 @@ function Usuario(props) {
 
 function Opcoes() {
   return (
-    <div class="sugestoes">
-      <div class="titulo">
+    <div className="sugestoes">
+      <div className="titulo">
         Sugestões para você
         <div>Ver tudo</div>
       </div>
@@ -39,5 +39,5 @@ function Opcoes() {
   );
 }
 function Div(props) {
-  return <div class={props.classe}>{props.conteudo}</div>;
+  return <div className={props.classe}>{props.conteudo}</div>;
 }
