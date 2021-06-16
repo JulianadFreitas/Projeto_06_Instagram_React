@@ -1,6 +1,6 @@
 export default function Conteudo(props) {
   return (
-    <div className="conteudo">
+    <div class="conteudo">
       <img src={props.imagemPost} alt="" />
     </div>
   );

@@ -3,11 +3,11 @@ export default function Storie({ usuarios }) {
     <>
       {usuarios.map((usuario) => {
         return (
-          <div className="story">
-            <div className="imagem">
+          <div class="story">
+            <div class="imagem">
               <img src={usuario.img} alt="" />
             </div>
-            <div className="usuario">{usuario.nome}</div>
+            <div class="usuario">{usuario.nome}</div>
           </div>
         );
       })}

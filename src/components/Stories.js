@@ -12,9 +12,9 @@ export default function Stories() {
   ];
 
   return (
-    <div className="stories">
+    <div class="stories">
       <Storie usuarios={usuarios} />
-      <div className="setinha">
+      <div class="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
       </div>
     </div>

@@ -15,7 +15,7 @@ export default function Posts() {
     },
   ];
   return (
-    <div className="posts">
+    <div class="posts">
       <Post dadosPostagens={dadosPostagens} />
     </div>
   );

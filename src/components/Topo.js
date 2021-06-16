@@ -1,33 +1,33 @@
 export default function Topo() {
   return (
-    <div className="navbar">
-      <div className="container">
-        <div className="logo">
+    <div class="navbar">
+      <div class="container">
+        <div class="logo">
           <ion-icon name="logo-instagram"></ion-icon>
-          <div className="separador"></div>
+          <div class="separador"></div>
           <img src="../img/logo.png" />
         </div>
 
-        <div className="logo-mobile">
+        <div class="logo-mobile">
           <ion-icon name="logo-instagram"></ion-icon>
         </div>
 
-        <div className="instagram-mobile">
+        <div class="instagram-mobile">
           <img src="../img/logo.png" />
         </div>
 
-        <div className="pesquisa">
+        <div class="pesquisa">
           <input type="text" placeholder="Pesquisar" />
         </div>
 
-        <div className="icones">
+        <div class="icones">
           <ion-icon name="paper-plane-outline"></ion-icon>
           <ion-icon name="compass-outline"></ion-icon>
           <ion-icon name="heart-outline"></ion-icon>
           <ion-icon name="person-outline"></ion-icon>
         </div>
 
-        <div className="icones-mobile">
+        <div class="icones-mobile">
           <ion-icon name="paper-plane-outline"></ion-icon>
         </div>
       </div>

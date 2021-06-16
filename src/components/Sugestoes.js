@@ -13,7 +13,7 @@ export default function Sugestoes() {
     <>
       {usuariosSugeridos.map((itens, i) => {
         return (
-          <div className="sugestoes">
+          <div class="sugestoes">
             <Sugestao nome={itens.nome} razao={itens.razao} />
           </div>
         );
