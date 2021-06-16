@@ -7,7 +7,7 @@ export default function Post({ dadosPostagens }) {
     <>
       {dadosPostagens.map((itens) => {
         return (
-          <div class="post">
+          <div className="post">
             <TopoPost nome={itens.nome} imagemTop={itens.nomeImagemTop}/>
             <Conteudo imagemPost={itens.nomeImagemPost} />
             <Curtidas curtidoPor={itens.curtidoPor} />
