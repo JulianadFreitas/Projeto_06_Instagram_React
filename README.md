@@ -24,7 +24,7 @@ Site responsivo do Instagram 📲 📸
 [//]: # (Add the features of your project here:)
 
 ### Conhecimentos:
-- Componentização, PROPS, create-react-app, Arrays no JS, Arrow FUnction, Import/Export.
+- Componentização, Props, create-react-app, Arrays no JS, Arrow Function, Import/Export.
 
 
 
