@@ -2,13 +2,15 @@ import Post from "./Post";
 export default function Posts() {
   const dadosPostagens = [
     {
-      nome: "meowed",
-      NomeimagemPost: "../img/gato-telefone.svg",
+      nome: "google",
+      nomeImagemTop: "../imagens/google.png",
+      nomeImagemPost: "../imagens/google.jpg",
       curtidoPor: "respondeai",
     },
     {
-      nome: "barked",
-      NomeimagemPost: "../img/dog.svg",
+      nome: "google",
+      nomeImagemTop: "../imagens/cabeca.JPG",
+      nomeImagemPost: "../imagens/women.JPG",
       curtidoPor: "respondeai",
     },
   ];

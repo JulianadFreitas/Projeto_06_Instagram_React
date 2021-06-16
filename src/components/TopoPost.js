@@ -2,7 +2,7 @@ export default function TopoPost(props) {
   return (
     <div class="topo">
       <div class="usuario">
-        <img src={`../img/${props.nome}.svg`} alt="" />
+        <img src={props.imagemTop} alt="" />
         {props.nome}
       </div>
       <div class="acoes">

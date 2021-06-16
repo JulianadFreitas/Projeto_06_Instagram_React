@@ -1,13 +1,13 @@
 export default function Storie({ usuarios }) {
   return (
     <>
-      {usuarios.map((nome) => {
+      {usuarios.map((usuario) => {
         return (
           <div class="story">
             <div class="imagem">
-              <img src={`../img/${nome}.svg`} alt="" />
+              <img src={usuario.img} alt="" />
             </div>
-            <div class="usuario">{nome}</div>
+            <div class="usuario">{usuario.nome}</div>
           </div>
         );
       })}

@@ -1,3 +1,35 @@
+<h1 align="center">
+  <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-3.png" alt="Parrot Card Game" width="70">
+<br>
+Site responsivo do Instagram 📲 📸
+</h1>
+
+<p align="center">Implementação do layout responsivo da versão web do Instagram, utilizando HTML, CSS, JS E REACT .</p>
+
+<p align="center">
+  Esse é o projeto da semana 6 no treinamento do bootcamp "Desenvolvimento Web Full-Stack" do Responde Aí.
+</p>
+
+<div align="center" >
+  <img src="public/imagens/capture1.png" >
+  </div>
+<div align="center">
+<img src="public/imagens/capture2.png"  alt="demo" height="320">
+  <img src="public/imagens/capture3.png" alt="demo" height="320">
+</div>
+
+
+<hr />
+
+[//]: # (Add the features of your project here:)
+
+### Conhecimentos:
+- Componentização, PROPS, create-react-app, Arrays no JS, Arrow FUnction, Import/Export.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
