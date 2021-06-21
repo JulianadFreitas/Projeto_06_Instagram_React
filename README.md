@@ -4,7 +4,7 @@
 Site responsivo do Instagram 📲 📸
 </h1>
 
-<p align="center">Implementação do layout responsivo da versão web do Instagram, utilizando HTML, CSS, JS e REACT .</p>
+<p align="center">Implementação do layout responsivo da versão web do Instagram, utilizando REACT .</p>
 
 <p align="center">
   Esse é o projeto da semana 6 no treinamento do bootcamp "Desenvolvimento Web Full-Stack" do Responde Aí.
